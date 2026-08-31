@@ -1,0 +1,21 @@
+{
+  "name": "Christian Extension Services",
+  "short_name": "CES SL",
+  "description": "Transforming Communities. Empowering Lives. Christian-based community development in Sierra Leone.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFF9F5",
+  "theme_color": "#F8B195",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
