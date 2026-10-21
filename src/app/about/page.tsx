@@ -20,34 +20,44 @@ export const metadata: Metadata = {
 
 const CORE_VALUES = [
   {
-    icon: Heart,
-    title: "Compassion",
-    desc: "We serve with love and genuine care for the most vulnerable members of our communities.",
+    icon: Shield,
+    title: "Justice and Fairness",
+    desc: "CES seeks to ensure that all its programmes promote fair and equitable treatment of all people, irrespective of sex, age, race, tribe or religion.",
   },
   {
     icon: Users,
-    title: "Community Partnership",
-    desc: "We work alongside communities as partners, not for them, ensuring local ownership and sustainability.",
-  },
-  {
-    icon: Shield,
-    title: "Integrity",
-    desc: "We operate with transparency, accountability and the highest standards of stewardship.",
-  },
-  {
-    icon: Star,
-    title: "Empowerment",
-    desc: "We build capacity so communities can initiate, manage and sustain their own development.",
-  },
-  {
-    icon: BookOpen,
-    title: "Learning",
-    desc: "We continuously learn, adapt and improve our approaches through evidence and reflection.",
+    title: "Holistic Approach",
+    desc: "CES believes in adopting ways of working that involve like-minded organisations, institutions and individuals in addressing issues of national and regional concern.",
   },
   {
     icon: Eye,
-    title: "Faith-Driven",
-    desc: "Our work is grounded in Christian values of service, dignity, justice and transformation.",
+    title: "Accountability and Transparency",
+    desc: "CES believes in promoting honesty, openness and mutual accountability, as well as sharing information that would be of help to all its stakeholders.",
+  },
+  {
+    icon: Star,
+    title: "Commitment and Hard Work",
+    desc: "CES is committed and willing to undertake tasks that promote the health of the organisation and improve the livelihoods of the people it works with.",
+  },
+  {
+    icon: Users,
+    title: "Active Participation",
+    desc: "CES believes in creating an enabling environment in which all stakeholders feel able to contribute and express their opinions without fear of consequences.",
+  },
+  {
+    icon: Heart,
+    title: "Empowerment",
+    desc: "CES believes that building the capacity of local communities is the best way to enhance organisational effectiveness, because local communities understand the contexts in which they operate.",
+  },
+  {
+    icon: BookOpen,
+    title: "Gender Sensitivity",
+    desc: "CES acknowledges and respects gender differences while recognising them as assets. It values the contributions of both women and men and ensures that every individual involved with the organisation is treated fairly and equitably.",
+  },
+  {
+    icon: Shield,
+    title: "Sustainability",
+    desc: "CES recognises that shocks and stresses are inevitable. Learning to cope with and recover from them without undermining the natural resource base helps the organisation and the communities it serves to move forward.",
   },
 ];
 

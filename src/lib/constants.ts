@@ -5,13 +5,13 @@ export const SITE = {
   description:
     "Christian Extension Services works with vulnerable communities in Sierra Leone through training, empowerment and sustainable development initiatives.",
   mission:
-    "To build the capacity of vulnerable communities in Sierra Leone through training and working with communities for sustainable development.",
+    "Build the capacity of vulnerable communities in Sierra Leone through training and working with communities for sustainable development as the developmental arm of the Christian Reforned Church in Sierra Leone.",
   vision:
     "Empowered communities in Sierra Leone, through initiating, implementing, and managing programmes for transformation.",
   address:
-    "3 Mile, Kabala–Makeni Highway, Koinadugu District, Northern Province, Sierra Leone",
+    "1 Mile, Kabala–Makeni Highway, Koinadugu District, Northern Province, Sierra Leone",
   phone: "+232 78 703694",
-  email: "Christianextensionservices@gmail.com",
+  email: "ces@christianextentionservices.org",
   facebook: "https://www.facebook.com/share/196wy5KvNF/",
   whatsapp: "+23278703694",
   experienceYears: "46+",
@@ -43,13 +43,14 @@ export const NAV_ITEMS = [
     children: [{ label: "Stories of Transformation", href: "/impact-stories" }],
   },
   {
-    label: "Resources",
-    href: "/resources",
+    label: "News & Updates",
+    href: "/updates",
     children: [
+      { label: "News & Updates", href: "/updates" },
       { label: "Resources", href: "/resources" },
-      { label: "Updates", href: "/updates" },
     ],
   },
+  { label: "Gallery", href: "/gallery" },
   {
     label: "Get Involved",
     href: "/get-involved",
@@ -93,20 +94,43 @@ export const GALLERY_CATEGORIES = [
   "Partner Activities",
 ] as const;
 
+/**
+ * CES SL programme photographs.
+ *
+ * Image files should be stored in:
+ * public/images/programmes/
+ *
+ * Files inside Next.js public/ are served from the website root.
+ */
 export const STOCK_IMAGES = {
-  hero: "https://images.pexels.com/photos/30491746/pexels-photo-30491746.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=800&w=1600",
-  farming:
-    "https://images.pexels.com/photos/38668660/pexels-photo-38668660.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  community:
-    "https://images.pexels.com/photos/30616651/pexels-photo-30616651.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  women:
-    "https://images.pexels.com/photos/36780246/pexels-photo-36780246.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  landscape:
-    "https://images.pexels.com/photos/31487836/pexels-photo-31487836.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  village:
-    "https://images.pexels.com/photos/26974534/pexels-photo-26974534.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  training:
-    "https://images.pexels.com/photos/30616604/pexels-photo-30616604.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
-  harvest:
-    "https://images.pexels.com/photos/38668661/pexels-photo-38668661.jpeg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200",
+  // General website imagery
+  hero: "/images/programmes/programme-banner.jpg",
+  programmeBanner: "/images/programmes/programme-banner.jpg",
+
+  // Community development
+  community: "/images/programmes/community-dev.jpg",
+
+  // Education and training
+  training: "/images/programmes/education-and-training.jpg",
+  adultLiteracy: "/images/programmes/adult-literacy.jpg",
+
+  // Agriculture and sustainable livelihoods
+  farming: "/images/programmes/agriculture-and-food-security.jpeg",
+  agriculture: "/images/programmes/agriculture-and-food-security.jpeg",
+  harvest: "/images/programmes/sustainable-livelihoods.jpg",
+  sustainableLivelihoods: "/images/programmes/sustainable-livelihoods.jpg",
+  farmerFieldSchools: "/images/programmes/Farmer-field-schools.jpg",
+
+  // Climate resilience
+  landscape: "/images/programmes/agriculture-and-food-security.jpeg",
+
+  // Women's empowerment and gender equality
+  women: "/images/programmes/women-empowerment.jpeg",
+  gbv: "/images/programmes/gbv.jpeg",
+
+  // Village Savings and Loan Associations
+  village: "/images/programmes/vsla.jpeg",
+
+  // Vulnerable community support
+  vulnerableSupport: "/images/programmes/vulnerable-community-support.jpg",
 } as const;
